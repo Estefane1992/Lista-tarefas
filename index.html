@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Lista de tarefas</h1>
+            <form class="search">
+              <input class="form-control m-auto p-3" type="text" name="search" placeholder="pesquisar todos">
+            </form>
+        </header>
+
+        <ul class="list-group todasListas mx-auto">
+            <li class="list-group-item d-flex justify-content-between align-items-center text-white fw-bolder">
+              <span>Consultas médica</span>
+              <i class="bi bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-white fw-bolder">
+              <span>Realizar provas</span>
+              <i class="bi bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-white fw-bolder">
+              <span>Fazer compras</span>
+              <i class="bi bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between   align-items-center text-white fw-bolder">
+                <span>Ir na academia</span>
+                <i class="bi bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-white fw-bolder">
+                <span>Tomar rémedios</span>
+                <i class="bi bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-white fw-bolder">
+                <span>Ir ao dentista</span>
+                <i class="bi bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-white fw-bolder">
+                <span>Realizar exames</span>
+                <i class="bi bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-white fw-bolder">
+                <span>Assistir as aulas</span>
+                <i class="bi bi-trash delete"></i>
+            </li>
+        </ul>
+        <form class="add text-center my-4">
+            <label class="text-light mb-3">Adicionar uma nova tarefa...</label>
+            <input class="form-control m-auto p-3" type="text" name="add" />
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
